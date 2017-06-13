@@ -48,8 +48,8 @@
         "Marine Ecology Progress Series": "Mar. Ecol. Progr. Ser.",
         "Marine Policy": "Mar. Policy",
         "North American Journal of Fisheries Management": "N. Am. J. Fish. Manage.",
-        "North Pacific Anadromous Fish Commision Technical Report": "North. Pac. Anadr. Fish Comm. Tech. Rep.",
-        "North Pacific Anadromous Fish Commision Bulletin": "North. Pac. Anadr. Fish Comm. Bull.",
+        "North Pacific Anadromous Fish Commission Technical Report": "North. Pac. Anadr. Fish Comm. Tech. Rep.",
+        "North Pacific Anadromous Fish Commission Bulletin": "North. Pac. Anadr. Fish Comm. Bull.",
         "Proceedings of the National Academy of Sciences": "Proc. Natl. Acad. Sci.",
         "Proceedings of the Royal Society B: Biological Sciences": "Proc. R. Soc. B. Biol. Sci.",
         "Progress in Oceanography": "Prog. Oceanogr.",
@@ -84,7 +84,15 @@
         "Ecological Complexity": "Ecol. Complex.",
         "Group Decision and Negotiation": "Group Decis. Negot.",
         "Aquatic Conservation: Marine and Freshwater Ecosystems": "Aquatic Conserv: Mar. Freshw. Ecosyst.",
-        "Environmental and Ecological Statistics": "Environ. Ecol. Stat."
+        "Environmental and Ecological Statistics": "Environ. Ecol. Stat.",
+        "Polar Geography": "Polar Geogr.",
+        "Journal of Applied Ecology": "J. Appl. Ecol.",
+        "Annual Review of Entomology": "Annu. Rev. Entomol.",
+        "PLoS Biology": "PLoS Biol.",
+        "Nature Climate Change": "Nat. Clim. Change",
+      	"Global Environmental Change":  "Glob. Environ. Chang.",
+        "Evolutionary Applications": "Evol. Appl.",
+        "Biological Conservation": "Biol. Conserv."
         }
     }
 }
