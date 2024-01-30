@@ -1603,6 +1603,7 @@
         "Computing in Science & Engineering": "Comput. Sci. Eng.",
         "Computer Speech & Language": "Comput. Speech Lang.",
         "Computational Statistics and Data Analysis": "Comput. Stat. Data Anal.",
+        "Computational Statistics & Data Analysis": "Comput. Stat. Data Anal.",
         "Computers and Structures": "Comput. Struct.",
         "Computational and Structural Biotechnology Journal": "Comput. Struct. Biotechnol. J.",
         "Computational and Theoretical Chemistry": "Comput. Theor. Chem.",
@@ -7376,7 +7377,13 @@
         "Journal of Statistical Software": "J. Stat. Softw.",
         "Journal of Basic Engineering": "J. Basic Eng.",
         "Bayesian Analysis": "Bayesian Anal.",
-        "Bulletin of the Fisheries Research Board of Canada": "Bull. Fish. Res. Board Can."
+        "Current Climate Change Reports": "Curr. Clim. Change Rep.",
+        "Operational Research Quarterly": "Oper. Res. Q.",
+        "International Journal of Forecasting": "Int. J. Forecast.",
+        "Journal of Applied Statistics": "J. Appl. Stat.",
+        "Bulletin of the Fisheries Research Board of Canada": "Bull. Fish. Res. Board Can.",
+        "Aquatic Mammals": "Aquat Mamm.",
+        "Geoscience Letters": "Geosci. Lett."
         }
     }
 }
