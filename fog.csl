@@ -55,8 +55,8 @@
   </macro>
   <macro name="author-short">
     <names variable="author">
-      <name form="short" and="text" delimiter=", " initialize-with=". "/>
-      <et-al font-style="italic" prefix=" "/>
+      <name form="short" and="symbol" delimiter=", " initialize-with=". "/>
+      <et-al prefix=" "/>
       <substitute>
         <names variable="editor"/>
         <names variable="translator"/>
@@ -121,7 +121,8 @@
       <if variable="issued">
         <group>
           <date variable="issued">
-            <date-part prefix=" (" suffix=") " name="year"/>
+              <date-part prefix=" (" suffix="" name="year"/>  <!-- added suffix as a prefix in title -->
+            <!-- <date-part prefix=" (" suffix=") " name="year"/> -->
           </date>
           <choose>
             <if type="article-journal bill book chapter graphic legal_case legislation motion_picture paper-conference report song" match="none">
@@ -134,7 +135,7 @@
         </group>
       </if>
       <else>
-        <text prefix=" (" term="no date" suffix=")" form="short"/>
+        <text prefix=" (" term="in press" suffix=")" form="long"/>
       </else>
     </choose>
   </macro>
@@ -146,7 +147,7 @@
         </date>
       </if>
       <else>
-        <text term="no date" form="short"/>
+        <text term="in press" form="long"/>
       </else>
     </choose>
   </macro>
@@ -169,8 +170,8 @@
     <choose>
       <if type="article-journal article-magazine article-newspaper" match="any">
         <text variable="container-title" form="short" font-style="italic"/>
-        <text variable="volume" prefix=" " font-weight="bold"/>
-        <text variable="page" prefix=": "/>
+        <text variable="volume" prefix=", " font-style="italic"/>
+        <text variable="page" prefix=", "/>
       </if>
       <else-if type="bill chapter graphic legal_case legislation motion_picture paper-conference report" match="any">
         <group delimiter=". ">
@@ -231,7 +232,7 @@
         <text macro="issued"/>
       </group>
       <group delimiter=". ">
-        <text variable="title"/>
+          <text variable="title" prefix="). "/>  <!-- add year suffix here so the 'a' in (2020a) is inside ) -->
         <text macro="locators"/>
         <text macro="publisher"/>
         <text macro="access"/>
