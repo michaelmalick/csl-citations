@@ -46,3 +46,9 @@ The abbreviations list in `abbrev.json` was created using the list provided
 [here](https://woodward.library.ubc.ca/research-help/journal-abbreviations/#Z).
 The list has been augmented over time to include additional journals and fix
 minor errors.
+
+
+License
+=======
+Unless otherwise stated, this work is licensed under a
+[Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
